@@ -14,7 +14,7 @@ public:
 	Queue(int size = 10)
 	{
 		maxCount = size;
-		arr = new Worker[maxCount];////
+		arr = new Worker[maxCount];
 		count = 0;
 	}
 
@@ -69,7 +69,7 @@ public:
 	{
 		cout << "The queue:\n";
 
-		for (int i = 0; i < count; ++i)
+		for (int i = 0; i < count; i++)
 		{
 			arr[i].PrintInfo();
 		}
